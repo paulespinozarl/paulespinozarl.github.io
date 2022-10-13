@@ -32,6 +32,15 @@ h3{
     list-style: none;
 }
 
+.titulo{
+    display: block;
+}
+
+.foto-perfil{
+    height: 170px;
+    border-radius: 100%;
+}
+
 .items-header{
     display: flex;
     padding: 10px;

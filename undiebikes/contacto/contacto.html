@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto - UndieBikes</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style-contacto.css">
+    </head>
+    <body>
+        <header>
+            <div class="caja">
+                <h1><img class="logo" src="imagenes/logo.jpg"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="https://paulespinozarl.github.io/undiebikes/home">Home</a></li>
+                        <li><a href="https://paulespinozarl.github.io/undiebikes/servicios" target="_blank">Servicios</a></li>
+                        <li><a href="https://paulespinozarl.github.io/undiebikes/contacto" target="_blank">Contacto</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form>
+                <p>¿Deseas cotizar el mantenimiento de tu bicicleta?</p>
+                <p>¡Escríbenos!</p>
+                
+               <div class="form-group">
+                <input class="input" placeholder="Nombre y Apellido">
+                <label for="name" class="form-label">Nombre y Apellido</label>
+                <input class="input" placeholder="Email">
+                <label for="email" class="form-label">Email                </label>
+                <input class="input" placeholder="Telefono">
+                <label for="telefono" class="form-label">Telefono</label>
+               </div> 
+                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required placeholder="Describe que deseas realizar..."></textarea>
+                <div class="input2">
+                    <fieldset>
+                        <legend>¿Cómo le gustaría que lo contactemos?</legend>
+    
+                        <label class="input2-child" for="radio-email"><input type="radio" name="contacto" value="email">Email</label>
+                        
+                        <label class="input2-child" for="radio-telefono"><input type="radio" name="contacto" value="telefono">Teléfono</label>
+                        
+                        <label class="input2-child" for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp"checked>WhatsApp</label>
+                        
+                    </fieldset>
+                </div>
+                <fieldset>
+                    <legend>¿En cuál horario prefiere ser atendido?</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                    </select>
+                </fieldset>
+                
+                <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de UndieBikes?</label>                
+                
+                <input type="submit" value="Enviar formulario" class="enviar">
+
+            </form>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Día</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Lunes a Viernes</td>
+                        <td>09h ~ 19h</td>
+                    </tr>
+                    <tr>
+                        <td>Sábado</td>
+                        <td>10h ~ 16h</td>
+                    </tr>
+                    <tr>
+                        <td>Domingo</td>
+                        <td>CERRADO</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer>
+            <img class="logo" src="imagenes/logo.jpg">
+            <p class="copyright">&copy Copyright UndieBikes - 2022</p>
+        </footer>
+    </body>
+</html>

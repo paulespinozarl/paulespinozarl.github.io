@@ -1,0 +1,145 @@
+body{
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgb(44, 41, 41);
+    padding: 20px 0;
+    height: 250px;
+}
+
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+p{
+    margin: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+nav{
+    position: absolute;
+    top:200px;
+    right: 0;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+
+footer{
+    text-align: center;
+    background-color: #1d1b1b;
+    padding:40px;
+}
+
+.copyright{
+    color:#FFFFFF;
+    font-size: 13px;
+    margin:20px;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;   
+}
+
+form{
+    margin: 40px 0;
+}
+
+.form-label{
+    font-size: 1.2rem;
+    margin-left: 1.5rem;
+    display: block;
+    transition: all 0.3s;
+    transform: translateY(-5,5rem);
+}
+
+.input{
+    color: #696969;
+    font-size: 18px;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    background-color: regb (255, 255, 255);
+    border: none;
+    outline: none;
+    transition: all 0.3s;
+}
+
+.input:placeholder-shown + .form-label{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.checkbox{
+    margin:20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background: orange;
+    border:none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor:pointer;
+    display: block;
+    margin-top: 20px;
+}
+
+.enviar:hover{
+    background: darkorange;
+    transform: scale(1.1);
+}
+
+table{
+    margin: 80px 40px;
+}
+
+thead{
+    background: #555555;
+    color:white;
+    font-weight: bold;
+}
+
+td,th{
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.logo {
+    border-radius: 100%;
+}
+
+fieldset{
+    padding: 10px;
+    display: block;
+}
