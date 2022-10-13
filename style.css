@@ -1,0 +1,104 @@
+*{
+    margin-right: 25px;
+    margin-left: 25px;
+    padding: 0;
+    font-family: sans-serif;
+    margin: 0;
+    background: #f1f5f7;
+}
+
+a{
+    text-decoration: none;
+    color: #2c6074;
+}
+
+h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.header{
+    height: 60px;
+    width: auto;
+    background: #f4fcff;
+    padding: 5px;
+}
+
+.container-header{
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    list-style: none;
+}
+
+.items-header{
+    display: flex;
+    padding: 10px;
+    width: auto;
+}
+
+.section{
+    height: 250px;
+    padding: 15px;
+    width: 700px;
+}
+
+.section-me{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.nav-container{
+    display: flex;
+}
+
+.nav-items{
+    color: #2c6074;
+    font-size: 14px;
+}
+
+.flecha{
+    width: 20px;
+    margin: 0;
+}
+
+.me{
+    height: 200px;
+    background: #f4fcff;
+    padding: 20px;
+}
+
+.container-skills{
+    list-style: none;
+}
+
+.skills{
+    height: 150px;
+}
+
+.container-skills{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hobbies{
+    height: 150px;
+}
+
+.educacion{
+    height: 150px;
+}
+
+.experiencia{
+    height: 150px;
+}
+
+.contacto{
+    height: 150px;
+}
+
+.footer{
+    height: 150px;
+}
+

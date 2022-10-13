@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador    </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+        <img class="logoimg" src="imagenes/Letra A.jpg" alt="A">
+    </div>
+    <div class="left">
+        <input class="text-input" placeholder="Ingrese el texto aquí" type="text" name="value" id="input-text">
+    </div>
+    <div class="right">
+        <img id="img-nino" src="imagenes/Oracle-encriptador.jpg" alt="MUNECO">
+        <h1 id="texto">Ningún mensaje fue encontrado</h1>
+        <textarea id="texto2" name="" id="" cols="80" rows="8"></textarea>
+        <button class="button-copiar" type="button" id="copiar" name="button" onclick="copiar()">Copiar</button>
+    </div>
+    <div class="left-button">
+        <p class="warning"> <strong id="signo">!</strong> Sólo letras minúsculas y sin acentos</p>
+        <button class="button-letras" type="button" id="button-encriptar" onclick="encriptar()">Encriptar</button>
+        <button class="button-letras" type="button" id="button-desencriptar" onclick="desencriptar()">Desencriptar</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
