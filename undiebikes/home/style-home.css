@@ -112,5 +112,22 @@ footer{
     font-size: 13px;
 }
 
+@media screen and (max-width: 415px) {
+    .caja{
+        width: auto;
+        display: flex;
+        align-items: flex-end;
+        padding: 0;
+    }
+
+    .logo{
+        height: 100px;
+        width: 100px;
+    }
+
+    .link-header{
+        font-size: 10px;
+    }
+}
 
 
