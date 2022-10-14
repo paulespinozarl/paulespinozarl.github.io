@@ -124,3 +124,69 @@ h3{
     display: flex;
     justify-content: space-around;
 }
+
+@media screen and (max-width: 390px) {
+    .encabezado{
+        font-size: 12px;
+    }
+
+    h3{
+        font-size: 16px;
+    }
+
+    .container-header{
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+        list-style: none;
+        font-size: 13px;
+    }
+
+    .section{
+        padding: 10px;
+    }
+
+    .titulo{
+        font-size: 20px;
+    }
+
+    .me{
+        padding: 20px;
+        background: #f4fcff;
+    }
+
+    .container-skills{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #f4fcff;
+    }
+
+    .educacion{
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        align-items: center;
+    }
+
+    .proyectos, .items-contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #f4fcff;
+    }
+
+    .items-contacto{
+        height: 100x;
+        font-size: 14px;
+    }
+
+    .footer{
+        height: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        background: #f4fcff;
+    }
+}
