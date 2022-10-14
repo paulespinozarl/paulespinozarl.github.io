@@ -125,7 +125,7 @@ h3{
     justify-content: space-around;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 395px) {
     .encabezado{
         font-size: 12px;
     }
