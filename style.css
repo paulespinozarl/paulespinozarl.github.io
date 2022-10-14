@@ -35,15 +35,14 @@ h3{
 }
 
 .titulo{
-    display: block;
-    width: 975px;
-    margin-right: 50px;
-    margin-left: 50px;
+    display: flex;
+    
 }
 
 .foto-perfil{
     height: 170px;
     border-radius: 100%;
+    padding-right: 30px
 }
 
 .items-header{
@@ -54,17 +53,17 @@ h3{
 
 .section{
     height: 350px;
-    padding: 15px;
-    width: 700px;
 }
 
 .section-me{
     padding-top: 20px;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 .nav-container{
     display: flex;
+    justify-content: space-around;
 }
 
 .nav-items{
@@ -78,11 +77,8 @@ h3{
 }
 
 .me{
-    height: 20px;
-    width: 975px;
     background: #f4fcff;
-    padding: 20px;
-    display: inline-block;
+    padding: 20px 0 40px 0;
 }
 
 .container-skills{
@@ -90,16 +86,12 @@ h3{
 }
 
 .skills{
-    height: 150px;
+    height: 100px;
 }
 
 .container-skills{
     display: flex;
     justify-content: space-around;
-}
-
-.hobbies{
-    height: 150px;
 }
 
 .educacion{
@@ -116,8 +108,19 @@ h3{
 
 .footer{
     height: 150px;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    align-items: center;
 }
 
-.contenido{
-    padding: 0 20% 0 20%;
+.max-width{
+    max-width: 980px;
+    margin: auto;
+}
+
+.proyectos{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
