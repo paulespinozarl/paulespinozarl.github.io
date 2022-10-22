@@ -112,6 +112,13 @@ h3{
     height: 150px;
 }
 
+.items-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .footer{
     height: 150px;
     display: flex;
