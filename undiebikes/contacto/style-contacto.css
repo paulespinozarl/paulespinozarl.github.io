@@ -3,15 +3,52 @@ body{
 }
 
 header {
-    background-color: rgb(44, 41, 41);
-    padding: 20px 0;
-    height: 250px;
+    background-color: #000000;
+    height: 220px
+}
+
+.titulo-header{
+    font-size: 50px;
+    color: white;
+}
+
+.titulo-logo{
+    display: flex;
+    justify-content: space-around
 }
 
 .caja{
-    width: 940px;
-    position: relative;
-    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+}
+
+a:hover{
+    color: #1c3c6d;
+    transition: 0.5s all;
+}
+
+.red-social{
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 100%;
+}
+
+.logo {
+    border-radius: 100%;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    margin-top: 14px;
 }
 
 p{
@@ -19,31 +56,6 @@ p{
     font-size: 24px;
     text-align: center;
 }
-
-nav{
-    position: absolute;
-    top:200px;
-    right: 0;
-}
-
-nav li{
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-nav a{
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-}
-
-nav a:hover{
-    color: #c78c19;
-    text-decoration: underline;
-}
-
 
 footer{
     text-align: center;
@@ -127,16 +139,6 @@ thead{
 td,th{
     border: 1px solid #000000;
     padding: 8px 15px;
-}
-
-
-img {
-    height: 200px;
-    width: 200px;
-}
-
-.logo {
-    border-radius: 100%;
 }
 
 fieldset{

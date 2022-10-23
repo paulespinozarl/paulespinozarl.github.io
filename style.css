@@ -123,7 +123,7 @@ h3{
 }
 
 .contacto{
-    height: 150px;
+    height: 100px;
 }
 
 .items-contacto{
@@ -150,6 +150,10 @@ h3{
     list-style: none;
     display: flex;
     justify-content: space-around;
+}
+
+.back{
+    background-color: #f4fcff;
 }
 
 @media screen and (max-width: 415px) {
@@ -204,7 +208,7 @@ h3{
     .back{
         background-color: #f4fcff;
     }
-
+    
     .educacion{
         display: flex;
         justify-content: center;
