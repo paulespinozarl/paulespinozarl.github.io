@@ -115,6 +115,7 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color:#f4fcff
 }
 
 .experiencia{
@@ -188,7 +189,7 @@ h3{
 
     .me{
         padding: 20px;
-        background: #f4fcff;
+        background-color: #f4fcff;
         font-size: 14px;
     }
 
@@ -200,12 +201,17 @@ h3{
         font-size: 14px;
     }
 
+    .back{
+        background-color: #f4fcff;
+    }
+
     .educacion{
         display: flex;
         justify-content: center;
         list-style: none;
         align-items: center;
         font-size: 14px;
+        background-color: #f4fcff;
     }
 
     .proyectos, .items-contacto{
