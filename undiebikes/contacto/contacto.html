@@ -27,43 +27,28 @@
             </div>        
         </header>
         <main>
-            <form>
+            <form class="form-group">
                 <p>¿Deseas cotizar el mantenimiento de tu bicicleta?</p>
-                <p>¡Escríbenos!</p>
-                
-               <div class="form-group">
-                <input class="input" placeholder="Nombre y Apellido">
-                <label for="name" class="form-label">Nombre y Apellido</label>
-                <input class="input" placeholder="Email">
-                <label for="email" class="form-label">Email                </label>
+                <p>¡Escríbenos!</p>               
+                <input class="input" placeholder="Nombre y Apellido">                
+                <input class="input" placeholder="Email">                
                 <input class="input" placeholder="Telefono">
-                <label for="telefono" class="form-label">Telefono</label>
-               </div> 
-                <textarea cols="70" rows="10" id="mensaje" class="input-padron" required placeholder="Describe que deseas realizar..."></textarea>
-                <div class="input2">
-                    <fieldset>
-                        <legend>¿Cómo le gustaría que lo contactemos?</legend>
-    
-                        <label class="input2-child" for="radio-email"><input type="radio" name="contacto" value="email">Email</label>
-                        
-                        <label class="input2-child" for="radio-telefono"><input type="radio" name="contacto" value="telefono">Teléfono</label>
-                        
-                        <label class="input2-child" for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp"checked>WhatsApp</label>
-                        
+                <textarea cols="40" rows="10" id="mensaje" class="input-padron" required placeholder="Describe que deseas realizar..."></textarea>
+                    <fieldset class="input2">
+                        <legend>¿Cómo le gustaría que lo contactemos?</legend>    
+                        <label class="input2-child"><input type="radio" value="email">Email</label>                        
+                        <label class="input2-child"><input type="radio" value="telefono">Teléfono</label>                        
+                        <label class="input2-child"><input type="radio" value="whatsapp"checked>WhatsApp</label>                        
                     </fieldset>
-                </div>
                 <fieldset>
                     <legend>¿En cuál horario prefiere ser atendido?</legend>
                     <select>
                         <option>Mañana</option>
                         <option>Tarde</option>
                     </select>
-                </fieldset>
-                
+                </fieldset>                
                 <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir novedades de UndieBikes?</label>                
-                
                 <input type="submit" value="Enviar formulario" class="enviar">
-
             </form>
 
             <table>
